@@ -1,0 +1,155 @@
+/* HEADER */
+
+#Header{
+  background-image: url("HeaderPlaya.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1024px;
+  height: 300px;
+}
+
+#LinksHeader{
+  float: right;
+  font-family: arial;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#LinksHeader span{
+  color: white;
+}
+
+#LinksHeader a{
+  color: white;
+}
+
+.nav{
+  text-shadow: 0 0 10px #FFFFFF,
+  0 0 20px #FFFFFF,
+  0 0 30px #FFFFFF,
+  0 0 40px #FFFFFF,
+  0 0 70px #FFFFFF,
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF,
+  0 0 150px #FFFFFF;
+
+  margin-left: 30px;
+  margin-right:0px;
+  font-family: Base02;
+  font-size: 20px;
+  list-style: none;
+}
+
+a:link{color: #0C86B4; text-decoration: none;}
+a:hover{color: white; text-decoration: none;}
+a:visited{color: #0C86B4; text-decoration: none;}
+a:active{color: white; text-decoration: none;}
+
+@font-face {
+    font-family: "Base02";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("Base 02.eot")
+    format("eot"), url("Base02.ttf")
+    format("truetype");
+}
+
+hr{
+   height: 2px;
+   border: 0;
+   color: #000000;
+   background-color: #000000;
+   width:600px;
+   box-shadow: 2px 1px 1px rgb(62, 62, 62);
+}
+
+#Logo{
+  float: left;
+  margin-left: 10px;
+  margin-top: 20pUrbanLawx;
+}
+
+#Menu{
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 150px;
+
+}
+
+#Redes{
+  width: 230px;
+  height: 65px;
+  float: right;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+/* PATROCINADORES */
+
+#Patro{
+  border: 2px solid black;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* CARTEL */
+
+#Cartel{
+  background-image: url("BaseCartel.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1024px;
+  height: 800px;
+}
+
+#TablaFooter{
+  width: 1024px;
+}
+
+#TablaFooter th h1{
+  font-family: Slave;
+  font-size: 90px;
+  margin: 0px;
+  color: #24385C;
+}
+
+@font-face {
+    font-family: "Slave";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("Slave.eot")
+    format("eot"), url("Slave.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Barber";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("Barber.eot")
+    format("eot"), url("Barber.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "KG";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("KG.eot")
+    format("eot"), url("KG.ttf")
+    format("truetype");
+}
+
+#TablaFooter th p{
+  color: white;
+  font-family: KG;
+  font-size:45px;
+  margin: 15px;
+  max-height: 800px;
+}

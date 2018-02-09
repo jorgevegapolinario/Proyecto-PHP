@@ -1,0 +1,261 @@
+/* HEADER */
+
+#Header{
+  background-image: url("HeaderPlaya.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1024px;
+  height: 300px;
+}
+
+#LinksHeader{
+  float: right;
+  font-family: arial;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#LinksHeader span{
+  color: white;
+}
+
+#LinksHeader a{
+  color: white;
+}
+
+.nav{
+  text-shadow: 0 0 10px #FFFFFF,
+  0 0 20px #FFFFFF,
+  0 0 30px #FFFFFF,
+  0 0 40px #FFFFFF,
+  0 0 70px #FFFFFF,
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF,
+  0 0 150px #FFFFFF;
+
+  margin-left: 30px;
+  margin-right:0px;
+  font-family: Base02;
+  font-size: 20px;
+  list-style: none;
+}
+
+a:link{color: #0C86B4; text-decoration: none;}
+a:hover{color: white; text-decoration: none;}
+a:visited{color: #0C86B4; text-decoration: none;}
+a:active{color: white; text-decoration: none;}
+
+@font-face {
+    font-family: "Base02";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("Base 02.eot")
+    format("eot"), url("Base02.ttf")
+    format("truetype");
+}
+
+hr{
+   height: 2px;
+   border: 0;
+   color: #000000;
+   background-color: #000000;
+   width:600px;
+   box-shadow: 2px 1px 1px rgb(62, 62, 62);
+}
+
+#Logo{
+  float: left;
+  margin-left: 10px;
+  margin-top: 20pUrbanLawx;
+}
+
+#Menu{
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 150px;
+
+}
+
+#Redes{
+  width: 230px;
+  height: 65px;
+  float: right;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+/* RESUMEN */
+
+#Resumen{
+  background-image: url("PlayaBolonia.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1024px;
+  height: 700px;
+}
+
+#TítuloN{
+  color: white;
+  font-family: Segoe UI;
+  font-size: 50px;
+}
+
+#Patrocinadores{
+  margin-top: 20px;
+}
+
+#Patro{
+  border: 2px solid black;
+}
+
+#BaseBlanca{
+  background-image: url("BaseBlanca.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 1024px;
+}
+
+#Entrada{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-image: url("1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  margin-top: 30px;
+  margin-left: 28px;
+  margin-right: 30px;
+}
+
+#Boton1 {
+  background: #e85d00;
+  background-image: -webkit-linear-gradient(top, #e85d00, #7a3716);
+  background-image: -moz-linear-gradient(top, #e85d00, #7a3716);
+  background-image: -ms-linear-gradient(top, #e85d00, #7a3716);
+  background-image: -o-linear-gradient(top, #e85d00, #7a3716);
+  background-image: linear-gradient(to bottom, #e85d00, #7a3716);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 1px #12387a;
+  -webkit-box-shadow: 3px 3px 3px #242424;
+  -moz-box-shadow: 3px 3px 3px #242424;
+  box-shadow: 3px 3px 3px #242424;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #570808 1px;
+  text-decoration: none;
+}
+
+#Boton1:hover {
+  background: #fc8f3c;
+  background-image: -webkit-linear-gradient(top, #fc8f3c, #7d3b0c);
+  background-image: -moz-linear-gradient(top, #fc8f3c, #7d3b0c);
+  background-image: -ms-linear-gradient(top, #fc8f3c, #7d3b0c);
+  background-image: -o-linear-gradient(top, #fc8f3c, #7d3b0c);
+  background-image: linear-gradient(to bottom, #fc8f3c, #7d3b0c);
+  text-decoration: none;
+}
+
+#Cartel{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-image: url("2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+#Boton2 {
+  background: #1f5173;
+  background-image: -webkit-linear-gradient(top, #1f5173, #69b7e8);
+  background-image: -moz-linear-gradient(top, #1f5173, #69b7e8);
+  background-image: -ms-linear-gradient(top, #1f5173, #69b7e8);
+  background-image: -o-linear-gradient(top, #1f5173, #69b7e8);
+  background-image: linear-gradient(to bottom, #1f5173, #69b7e8);
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 3px #395d8a;
+  -moz-box-shadow: 3px 3px 3px #395d8a;
+  box-shadow: 3px 3px 3px #395d8a;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+}
+
+#Boton2:hover {
+  background: #0f6499;
+  background-image: -webkit-linear-gradient(top, #0f6499, #3498db);
+  background-image: -moz-linear-gradient(top, #0f6499, #3498db);
+  background-image: -ms-linear-gradient(top, #0f6499, #3498db);
+  background-image: -o-linear-gradient(top, #0f6499, #3498db);
+  background-image: linear-gradient(to bottom, #0f6499, #3498db);
+  text-decoration: none;
+}
+
+#Pack{
+  border: 1px solid black;
+  width: 300px;
+  height: 200px;
+  background-image: url("3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 30px;
+  margin-right: 30px;
+  float: left;
+}
+
+#Boton3 {
+  background: #d93434;
+  background-image: -webkit-linear-gradient(top, #d93434, #9c2121);
+  background-image: -moz-linear-gradient(top, #d93434, #9c2121);
+  background-image: -ms-linear-gradient(top, #d93434, #9c2121);
+  background-image: -o-linear-gradient(top, #d93434, #9c2121);
+  background-image: linear-gradient(to bottom, #d93434, #9c2121);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #3d3d3d;
+  -webkit-box-shadow: 3px 3px 3px #404040;
+  -moz-box-shadow: 3px 3px 3px #404040;
+  box-shadow: 3px 3px 3px #404040;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #8c1f1f 1px;
+  text-decoration: none;
+}
+
+#Boton3:hover {
+  background: #c42b2b;
+  background-image: -webkit-linear-gradient(top, #c42b2b, #e80510);
+  background-image: -moz-linear-gradient(top, #c42b2b, #e80510);
+  background-image: -ms-linear-gradient(top, #c42b2b, #e80510);
+  background-image: -o-linear-gradient(top, #c42b2b, #e80510);
+  background-image: linear-gradient(to bottom, #c42b2b, #e80510);
+  text-decoration: none;
+}
+
+.Titulos{
+  margin-top: 15px;
+}
+
+#Flyer{
+  margin-top: 25px;
+  border: 1px solid black;
+}

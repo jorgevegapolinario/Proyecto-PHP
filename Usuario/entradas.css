@@ -1,0 +1,160 @@
+/* HEADER */
+
+#Header{
+  background-image: url("HeaderPlaya.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1024px;
+  height: 300px;
+}
+
+#LinksHeader{
+  float: right;
+  font-family: arial;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+#LinksHeader span{
+  color: white;
+}
+
+#LinksHeader a{
+  color: white;
+}
+
+.nav{
+  text-shadow: 0 0 10px #FFFFFF,
+  0 0 20px #FFFFFF,
+  0 0 30px #FFFFFF,
+  0 0 40px #FFFFFF,
+  0 0 70px #FFFFFF,
+  0 0 80px #FFFFFF,
+  0 0 100px #FFFFFF,
+  0 0 150px #FFFFFF;
+
+  margin-left: 30px;
+  margin-right:0px;
+  font-family: Base02;
+  font-size: 20px;
+  list-style: none;
+}
+
+a:link{color: #0C86B4; text-decoration: none;}
+a:hover{color: white; text-decoration: none;}
+a:visited{color: #0C86B4; text-decoration: none;}
+a:active{color: white; text-decoration: none;}
+
+@font-face {
+    font-family: "Base02";
+    font-style: normal;
+    font-weight: normal;
+
+    src: local("?"), url("Base 02.eot")
+    format("eot"), url("Base02.ttf")
+    format("truetype");
+}
+
+hr{
+   height: 2px;
+   border: 0;
+   color: #000000;
+   background-color: #000000;
+   width:600px;
+   box-shadow: 2px 1px 1px rgb(62, 62, 62);
+}
+
+#Logo{
+  float: left;
+  margin-left: 10px;
+  margin-top: 20pUrbanLawx;
+}
+
+#Menu{
+  width: 500px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 150px;
+
+}
+
+#Redes{
+  width: 230px;
+  height: 65px;
+  float: right;
+}
+
+
+/* ------------------------------------------------------------------------- */
+
+/* PATROCINADORES */
+
+#Patrocinadores{
+  margin-top: 20px;
+}
+
+#Patro{
+  border: 2px solid black;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* COMPRAR */
+
+#Comprar{
+  background-color: white;
+  width: 1024px;
+  height: 300px;
+}
+
+.Tabla{
+  width: 824px;
+  height: 300px;
+  margin-top: 50px;
+}
+
+td, th {
+border:hidden;
+}
+
+.TitTabla{
+  font-family: Arial;
+  font-size: 14px;
+  color: #084E7E;
+}
+
+.texto{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.total{
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.botoncompra {
+  background: #5bb9f7;
+  background-image: -webkit-linear-gradient(top, #5bb9f7, #2980b9);
+  background-image: -moz-linear-gradient(top, #5bb9f7, #2980b9);
+  background-image: -ms-linear-gradient(top, #5bb9f7, #2980b9);
+  background-image: -o-linear-gradient(top, #5bb9f7, #2980b9);
+  background-image: linear-gradient(to bottom, #5bb9f7, #2980b9);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+  width: 820px;
+}
+
+.botoncompra:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #0071bd);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #0071bd);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #0071bd);
+  background-image: -o-linear-gradient(top, #3cb0fd, #0071bd);
+  background-image: linear-gradient(to bottom, #3cb0fd, #0071bd);
+  text-decoration: none;
+}
